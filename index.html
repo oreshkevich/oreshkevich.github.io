@@ -86,6 +86,13 @@
         <img class="author" src="img/me.png" alt="">
 
     </div><!-- /.page -->
-
+<script>
+        let p = document.querySelector('.header-brand');
+        p.style.color = 'white';
+        setInterval(() => {
+            (p.style.color == 'white') ? p.style.color = 'red' : p.style.color = 'white'
+        }, 1000);
+        
+    </script>
 </body>
 </html>
